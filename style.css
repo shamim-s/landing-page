@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto ;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8%;
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10px;
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main{
+    background-color: #fff;
+    padding: 8px 15px;
+    color: #94bbe9;
+    border-radius: 50px;
+}
+span{
+    color: #94bbe9;
+    background-color: #fff;
+    padding: 5px;
+}
+.facebook{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 25px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    position: relative;
+    width: 40%;
+    margin-top: 20%;
+}
+.content h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.content a{
+    text-decoration: none;
+    color: #94bbe9;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.content a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #eeaeca;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.container img{
+    width: 350px;
+    height: 350px;
+    margin: 10% 15% 0 0;
+}
